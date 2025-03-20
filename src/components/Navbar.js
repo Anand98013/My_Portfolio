@@ -13,6 +13,8 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import { MdWork } from "react-icons/md";
+
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -91,6 +93,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdWork style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button

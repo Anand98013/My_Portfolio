@@ -1,0 +1,68 @@
+.experienceContent {
+  padding: 80px 0;
+}
+
+.experienceHeader {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.sectionSubtitle {
+  font-size: 1.8rem;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.experienceCard {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.experienceItem {
+  padding: 20px;
+  background: #f1eef4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experienceLine {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 2px;
+  height: 100%;
+  background: #007bff; 
+}
+
+.experienceTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.experienceCompany {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.experienceDuration {
+  font-size: 1rem;
+  color: #777;
+}
+
+.experienceDescription {
+  font-size: 1rem;
+  color: #333;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
